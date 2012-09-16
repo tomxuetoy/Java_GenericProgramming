@@ -1,3 +1,11 @@
-To make it work normally, put the code in NetBeans
-Otherwise if compiled by javac and run by java, it cannot work.
-The reason is pending...
+Run:
+    To make it work normally, put the code in NetBeans
+    Otherwise if compiled by javac and run by java, it cannot work.
+    The reason is pending...
+
+
+GP:
+    GenDemo.java
+
+non-GP:
+    GenDemo2.java
