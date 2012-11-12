@@ -1,20 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* the original code is from link: http://edu.qudong.com/safe/base/Javascript/shilidaima/20080514/12527.html */
-
-package gendemo;
-
-/**
- *
- * @author tomxue
- */
+package Java_GP;
 
 class Gen2 {
 
-	private Object ob; //定义一个通用类型成员
+	private Object ob; // 定义一个通用类型成员
 
 	public Gen2(Object ob) {
 		this.ob = ob;
@@ -36,18 +24,18 @@ class Gen2 {
 public class GenDemo2 {
 
 	public static void main(String[] args) {
-		//定义类Gen2的一个Integer版本
+		// 定义类Gen2的一个Integer版本
 		Gen2 intOb = new Gen2(new Integer(88));
 		intOb.showTyep();
 		int i = (Integer) intOb.getOb();
-		System.out.println("value= " + i);
+		System.out.println("value = " + i);
 
 		System.out.println("----------------------------------");
 
-		//定义类Gen2的一个String版本
+		// 定义类Gen2的一个String版本
 		Gen2 strOb = new Gen2("Hello Gen!");
 		strOb.showTyep();
 		String s = (String) strOb.getOb();
-		System.out.println("value= " + s);
+		System.out.println("value = " + s);
 	}
 }
